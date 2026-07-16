@@ -18,4 +18,4 @@ jobs:
         run: docker build -t my-app:latest .
 
       - name: Push Docker Image
-        run: docker push my-app:latest
+        run: docker push cloudtechnet/my-app:latest
